@@ -4,11 +4,9 @@ export default class footer extends Component {
     return (
       <div>
         <footer className="footer">
-          <div className="container">
-            <div className="row">
+          {/* <div className="container"> */}
               copyright @ 2022
-            </div>
-         </div>
+         {/* </div> */}
         </footer>
       </div>
     )

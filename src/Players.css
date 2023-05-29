@@ -1,4 +1,4 @@
-.container{
+/* .container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -7,7 +7,6 @@
     max-height: 500px;
 }
 .card{
-    /* width: 50%; */
     width: calc(100% - 60px);
     margin: 20px;
     padding: 20px;
@@ -37,4 +36,4 @@ button {
     font-size: 16px;
 }
 
-
+ */

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { ListOfPlayers } from '../shared/ListOfPlayers.js';
+import { Players } from '../shared/ListOfPlayers';
 
 
 export default class player extends Component {
     render() {
     return (
             <div className='container'>
-            {ListOfPlayers.map((player)=>(
+            {Players.map((player)=>(
                 <div className='column'>
                     <div className='card'>
                         <img src={player.img}/>
@@ -20,6 +20,8 @@ export default class player extends Component {
         ) 
     }
 }
+
+
 
 // export default class Players extends Component {
 //     render() {
